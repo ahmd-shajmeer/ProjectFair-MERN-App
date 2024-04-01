@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card, Col, Modal, Row } from "react-bootstrap";
-import { SERVER_URL } from "../../Services/serverURL";
+import { SERVER_URL } from "../Services/serverURL";
 
 function ProjectCard({ project }) {
   const [show, setShow] = useState(false);

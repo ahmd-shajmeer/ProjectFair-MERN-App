@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../Components/Header";
 import ProjectCard from "../Components/ProjectCard";
 import { Col, Row } from "react-bootstrap";
-import { getAllProjectAPI } from "../../Services/allAPI";
+import { getAllProjectAPI } from "../Services/allAPI";
 
 function Projects() {
   const [searchKey,setSearchKey] = useState('')

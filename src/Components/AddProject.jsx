@@ -3,7 +3,7 @@ import { Button, Modal } from 'react-bootstrap';
 import projectImg from '../assets/Images/image-holder.png'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { addProjectAPI } from '../../Services/allAPI';
+import { addProjectAPI } from '../Services/allAPI';
 import { addProjectResponseContext } from '../Context API/ContextShare';
 
 function AddProject() {

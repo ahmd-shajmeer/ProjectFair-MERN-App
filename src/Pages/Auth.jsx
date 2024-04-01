@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Form, Spinner } from "react-bootstrap";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { loginAPI, registerAPI } from "../../Services/allAPI";
+import { loginAPI, registerAPI } from "../Services/allAPI";
 import { tokenAuthenticationContext } from "../Context API/TokenAuth";
 
 function Auth({ insideRegister }) {

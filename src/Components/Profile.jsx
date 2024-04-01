@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Collapse } from "react-bootstrap";
 import profilePicture from "../assets/Images/pp.png";
-import { SERVER_URL } from "../../Services/serverURL";
+import { SERVER_URL } from "../Services/serverURL";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { updateUserProfileAPI } from "../../Services/allAPI";
+import { updateUserProfileAPI } from "../Services/allAPI";
 
 function Profile() {
   const [open, setOpen] = useState(false);

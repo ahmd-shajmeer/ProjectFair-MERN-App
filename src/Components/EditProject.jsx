@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Button, Modal } from 'react-bootstrap';
 import projectImg from '../assets/Images/image-holder.png'
-import { SERVER_URL } from '../../Services/serverURL';
+import { SERVER_URL } from '../Services/serverURL';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { editProjectAPI } from '../../Services/allAPI';
+import { editProjectAPI } from '../Services/allAPI';
 import { editProjectResponseContext } from '../Context API/ContextShare';
 
 function EditProject({project}) {

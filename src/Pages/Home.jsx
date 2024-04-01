@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ProjectCard from "../Components/ProjectCard";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { getHomeProjectAPI } from "../../Services/allAPI";
+import { getHomeProjectAPI } from "../Services/allAPI";
 
 function Home() {
   const navigate = useNavigate();
